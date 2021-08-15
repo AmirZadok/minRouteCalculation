@@ -198,7 +198,7 @@ public class GoogleMapViewFragment extends Fragment implements OnMapReadyCallbac
             String placesString;
             placesString = placesURL.toString().replaceAll("\\s+","");
 //            Log.d("Amir", "Amir" + placesString);
-            String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + placesString + "&destinations=" + placesString + "&mode=driving&language=fr-FR&avoid=tolls&key=AIzaSyCb_wgnMJ2b3-609BMvB5E0N6V7G8-ieks";
+            String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + placesString + "&destinations=" + placesString + "&mode=driving&language=fr-FR&avoid=tolls&key=Need to add key";
             Log.d("JSON", "array_rows:" + url);
             placesString = "";
             placesURL.setLength(0);
