@@ -1,5 +1,4 @@
 # minRouteCalculation
-my final project
 In this project I made an app that can calculte the best route for one person so he can go to all the points he would like in minimum time.
 How I did it?
 1) entering all places the driver want to go to within Google AutoComplete Places API .
